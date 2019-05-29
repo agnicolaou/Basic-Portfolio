@@ -1,20 +1,35 @@
+#topmenu{
+    padding: 30px;
+    margin: 20px;
+    background-color:red;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+
+}
+
+.contentcontainer{
+    padding: 20px;
+    border: 1px solid #dddddd;
+    width: 960px;
+    
+
+}
 
 body {
     width: 960px;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
 }
 
 
+
 #logo {
-   padding: 20px;
+   padding: 30px;
+   width: 300px;
    color: white;
    background-color: #4aaaa5;
-   box-sizing: content-box;
    text-align: center;
-   width: 300px;
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -23,6 +38,7 @@ p {
     color: #777777;
     text-align: left;
     line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #profilephoto{
@@ -34,5 +50,4 @@ p {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: strong;
-    padding: 20px;
 }
